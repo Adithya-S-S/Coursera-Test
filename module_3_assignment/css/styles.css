@@ -1,0 +1,84 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@600&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFDF9;
+}
+
+.navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    padding: 22px 0px 15px 40px;
+    margin: 0px;
+    font-size: 36px;
+    height: 75px;
+    color: white;
+}
+
+.navbar.navbar-default {
+    border: none;
+    background-color: #2E7D32; /* dark green */
+}
+
+.navbar .nav > li > a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    display: grid;
+    place-items: center;
+    min-height: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.navbar .nav > li > a:hover {
+    color: #FF7043; /* warm orange */
+}
+
+#items.container {
+    margin-top: 25px;
+}
+
+#items {
+    background-color: #FFF8E7; /* soft cream */
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    color: #4E342E; /* deep brown */
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    text-align: center;
+    color: #2E7D32; /* dark green */
+}
+
+article {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 10px 40px 10px 40px;
+    color: #333;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid #2E7D32; /* dark green */
+}
+.navbar-brand.title {
+    color: #FFD700;         /* gold-yellow default */
+    font-size: 32px;        /* balanced size */
+    text-decoration: none;  /* ensure no underline */
+}
+
+.navbar-brand.title:hover {
+    color: #FF7043;         /* warm orange on hover */
+    text-decoration: none;  /* no underline on hover */
+}
